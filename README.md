@@ -1,5 +1,5 @@
 # dotfiles
-My dotfiles
+My dotfiles.
 
 Install with:
 ```bash
