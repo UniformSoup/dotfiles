@@ -1,4 +1,5 @@
 ﻿---
+AccessModifierOffset: -2
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: Left
 AlignConsecutiveAssignments:
@@ -10,7 +11,7 @@ AlignConsecutiveDeclarations: AcrossComments
 AlignConsecutiveMacros: AcrossComments
 AlignConsecutiveBitFields: AcrossComments
 AlignEscapedNewlines: Left
-AlignOperands: AlignAfterOperator
+AlignOperands: AlignAfterOpenBracket
 AlignTrailingComments: Always
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
@@ -28,8 +29,7 @@ BinPackArguments: true
 BinPackParameters: true
 BitFieldColonSpacing: Both
 BreakAfterAttributes: Never
-BreakBeforeBinaryOperators: NonAssignment
-BreakBeforeBraces: Allman
+BreakBeforeBinaryOperators: None
 BreakBeforeConceptDeclarations: Always
 BreakBeforeInlineASMColon: OnlyMultiline
 BreakBeforeTernaryOperators: true
@@ -38,7 +38,7 @@ BreakInheritanceList: BeforeColon
 BreakStringLiterals: true
 ColumnLimit: 0
 CompactNamespaces: false
-Cpp11BracedListStyle: false
+Cpp11BracedListStyle: true
 DerivePointerAlignment: false
 EmptyLineAfterAccessModifier: Always
 EmptyLineBeforeAccessModifier: LogicalBlock
@@ -77,4 +77,17 @@ SpaceBeforeParens: ControlStatements
 SpacesBeforeTrailingComments: 4
 TabWidth: 4
 UseTab: Always
+BraceWrapping:
+  AfterClass:      true
+  AfterControlStatement: true
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  true
+  AfterObjCDeclaration: true
+  AfterStruct:     true
+  AfterUnion:      true
+  BeforeCatch:     true
+  BeforeElse:      true
+  IndentBraces:    false
+BreakBeforeBraces: Custom
 ...
