@@ -73,7 +73,7 @@ SortUsingDeclarations: LexicographicNumeric
 SpaceAfterCStyleCast: true
 SpaceAfterTemplateKeyword: true
 SpaceBeforeCpp11BracedList: true
-SpaceBeforeParens: Never
+SpaceBeforeParens: ControlStatements
 SpacesBeforeTrailingComments: 4
 TabWidth: 4
 UseTab: Always
