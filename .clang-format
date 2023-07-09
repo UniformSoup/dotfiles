@@ -67,7 +67,7 @@ PointerAlignment: Left
 QualifierAlignment: Right
 RemoveSemicolon: true
 RequiresClausePosition: OwnLine
-SeparateDefinitionBlocks: Always
+SeparateDefinitionBlocks: Leave
 SortIncludes: CaseSensitive
 SortUsingDeclarations: LexicographicNumeric
 SpaceAfterCStyleCast: true
