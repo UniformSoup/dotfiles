@@ -11,7 +11,7 @@ AlignConsecutiveDeclarations: AcrossComments
 AlignConsecutiveMacros: AcrossComments
 AlignConsecutiveBitFields: AcrossComments
 AlignEscapedNewlines: Left
-AlignOperands: AlignAfterOpenBracket
+AlignOperands: Never
 AlignTrailingComments: Always
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
