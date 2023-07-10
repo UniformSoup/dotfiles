@@ -11,7 +11,7 @@ AlignConsecutiveDeclarations: AcrossComments
 AlignConsecutiveMacros: AcrossComments
 AlignConsecutiveBitFields: AcrossComments
 AlignEscapedNewlines: Left
-AlignOperands: Never
+AlignOperands: AlignAfterOpenBracket
 AlignTrailingComments: Always
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
@@ -26,7 +26,7 @@ AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
 AlwaysBreakTemplateDeclarations: Yes
 BinPackArguments: true
-BinPackParameters: true
+BinPackParameters: false
 BitFieldColonSpacing: Both
 BreakAfterAttributes: Never
 BreakBeforeBinaryOperators: None
